@@ -121,7 +121,7 @@ def main(data_root='/data/MOT16/train', det_root=None,
         namemap=mm.io.motchallenge_metric_names
     )
     print(strsummary)
-    Evaluator.save_summary(summary, os.path.join(result_root, f'summary_{exp_name}.xlsx'))
+    Evaluator.save_summary(summary, os.path.join(result_root, 'summary_{exp_name}.xlsx'))
 
     # # eval
     # try:
